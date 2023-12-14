@@ -26,3 +26,9 @@ BRAM有AXI4与AXI4 LITE两种，LITE没有突发传输的接口，所以用AXI4
   Conflict--victim cache 
 其他：流水线，write buffer
 并行串行：并行少一周期但时钟频率低，用并行。//或者写串行2周期读一周期（读需判断数据是否在写流水中）
+# 12.14
+原本以为cache就要收尾了，结果又陷入了苦战
+龙芯杯开源代码好多SystemVerilog\Chisel看不懂，Verilog也看不懂（他们太强啦！）
+有趣的是在github上搜prefetch结果搜到一堆伊利诺伊大学香槟分校的ECE411 project，原来洋大人也这么强(orz
+知乎上说prefetch是大学问，看了《the primer of hardware prefetching》也只是入门，要用AI拿海量数据跑
+计划先研究HITSZ同学的ultraMIPS,特别是咋(替代)prefetch
