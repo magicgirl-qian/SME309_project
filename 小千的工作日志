@@ -34,3 +34,5 @@ BRAM有AXI4与AXI4 LITE两种，LITE没有突发传输的接口，所以用AXI4
 计划先研究HITSZ同学的ultraMIPS,特别是咋(替代)prefetch
 # 12.15
 无头苍蝇般地看了AXI总线（约等于无所事事）
+发现一个不错的专栏：https://www.zhihu.com/column/c_1251094110297509888
+碎碎念：读写fifo时burst用fixed模式（地址不变），正常用INCR（地址递增）
