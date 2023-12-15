@@ -32,3 +32,5 @@ BRAM有AXI4与AXI4 LITE两种，LITE没有突发传输的接口，所以用AXI4
 有趣的是在github上搜prefetch结果搜到一堆伊利诺伊大学香槟分校的ECE411 project，原来洋大人也这么强(orz
 知乎上说prefetch是大学问，看了《the primer of hardware prefetching》也只是入门，要用AI拿海量数据跑
 计划先研究HITSZ同学的ultraMIPS,特别是咋(替代)prefetch
+# 12.15
+无头苍蝇般地看了AXI总线（约等于无所事事）
